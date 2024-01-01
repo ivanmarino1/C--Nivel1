@@ -4,6 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        // Hacer un programa para ingresar cuatro números y luego mostrar por pantalla cuáles son mayores a 100.
     }
 }

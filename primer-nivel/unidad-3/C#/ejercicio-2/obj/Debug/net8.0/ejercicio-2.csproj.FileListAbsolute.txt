@@ -1,0 +1,15 @@
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\bin\Debug\net8.0\ejercicio-2.exe
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\bin\Debug\net8.0\ejercicio-2.deps.json
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\bin\Debug\net8.0\ejercicio-2.runtimeconfig.json
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\bin\Debug\net8.0\ejercicio-2.dll
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\bin\Debug\net8.0\ejercicio-2.pdb
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\obj\Debug\net8.0\ejercicio-2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\obj\Debug\net8.0\ejercicio-2.AssemblyInfoInputs.cache
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\obj\Debug\net8.0\ejercicio-2.AssemblyInfo.cs
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\obj\Debug\net8.0\ejercicio-2.csproj.CoreCompileInputs.cache
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\obj\Debug\net8.0\ejercicio-2.sourcelink.json
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\obj\Debug\net8.0\ejercicio-2.dll
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\obj\Debug\net8.0\refint\ejercicio-2.dll
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\obj\Debug\net8.0\ejercicio-2.pdb
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\obj\Debug\net8.0\ejercicio-2.genruntimeconfig.cache
+D:\Maxi Programa\primer-nivel\unidad-3\c#\ejercicio-2\obj\Debug\net8.0\ref\ejercicio-2.dll

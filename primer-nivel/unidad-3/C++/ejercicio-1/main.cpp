@@ -4,7 +4,16 @@
 
 int main() {
 
+    int numero;
 
+    std::cout << "Ingresar numero: ";
+    std::cin >> numero;
+
+    if (numero > 10) {
+        std::cout << "Es mayor a 10";
+    } else {
+        std::cout << "No es mayor a 10";
+    }
 
     return 0;
 }
