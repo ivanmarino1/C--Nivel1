@@ -19,6 +19,10 @@ class Program
 
         if (importe < 1000) {
             Console.WriteLine("No hay descuento, el importe final es: $" + importe);
+        } else if (importe >= 1000 && importe < 5000) {
+            Console.WriteLine("Se aplica un 10% de descuento, el importe final es: $" + importe * 0.90;)
+        } else if (importe >= 5000) {
+            Console.WriteLine("Se aplica un 18% de descuento, el importe final es: $" + importe * 0.82);
         }
     }
 }

@@ -19,7 +19,7 @@ int main() {
         std::cout << "No hay descuento, el importe final es: $" << importe;
     } else if (importe >= 1000 && importe < 5000) {
         std::cout << "Se aplica un 10% de descuento, el importe final es: $" << importe * 0.90;
-    } if (importe >= 5000) {
+    } else if (importe >= 5000) {
         std::cout << "Se aplica un 18% de descuento, el importe final es: $" << importe * 0.82;
     }
 
