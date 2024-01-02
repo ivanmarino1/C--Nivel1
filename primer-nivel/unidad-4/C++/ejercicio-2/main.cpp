@@ -10,7 +10,24 @@
 
 int main() {
 
-    
+    int importe;
+    int litros_vendidos;
+
+    std::cout << "Ingresar importe: $";
+    std::cin >> importe;
+
+    std::cout << "Ingresar cantidad de litros: ";
+    std::cin >> litros_vendidos;
+
+    if (litros_vendidos < 100) {
+        std::cout << "No hay descuento, el importe total es: $" << importe;
+    } else if (litros_vendidos > 100 && litros_vendidos <= 300) {
+        std::cout << "Hay descuento del 10%, el importe total es: $" << importe * 0.90;
+    } else if (litros_vendidos > 300 && litros_vendidos <= 500) {
+        std::cout << "Hay descuento del 15%, el importe total es: $" << importe * 0.85;
+    } else if (litros_vendidos > 500) {
+        std::cout << "Hay descuento del 25%, el importe total es: $" << importe * 0.75;
+    }
 
     return 0;
 }
