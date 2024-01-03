@@ -11,7 +11,66 @@
 
 int main() {
 
-    
+    std::cout << "Ingresar opcion de procesador (1 = i5 | 2 = i7 | 3 = i9): ";
+    int procesador;
+    std::cin >> procesador;
+
+    std::cout << "Ingresar opcion de memoria RAM (1 = 8GB | 2 = 16GB | 3 = 32GB): ";
+    int ram;
+    std::cin >> ram;
+
+    std::cout << "Se extiende disco? (SI = 1 | NO = 0): ";
+    int disco;
+    std::cin >> disco;
+
+    int precio;
+
+    switch (procesador) {
+        case 1:
+        switch (ram) {
+            case 1:
+                precio = 800;
+                break;
+            case 2:
+                precio = 900;
+                break;
+            case 3:
+                precio = 1000;
+                break;
+            } break;
+
+        case 2:
+        switch (ram) {
+            case 1:
+                precio = 900;
+                break;
+            case 2:
+                precio = 1000;
+                break;
+            case 3:
+                precio = 1400;
+                break;
+            } break;
+
+        case 3:
+            switch (ram) {
+            case 1:
+                precio = 1200;
+                break;
+            case 2:
+                precio = 1400;
+                break;
+            case 3:
+                precio = 2000;
+                break;
+            } break;
+    }
+
+    if (disco == 1) {
+        precio = precio + 300;
+    }
+
+    std::cout << "El precio final es: $" << precio << std::endl;
 
     return 0;
 }
