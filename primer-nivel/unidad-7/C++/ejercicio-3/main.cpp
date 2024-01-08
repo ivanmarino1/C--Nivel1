@@ -7,7 +7,59 @@
 
 int main() {
 
+    char frase[30];
+    char letra;
+    char letra_actual;
+    char letra_nueva;
+
+    int indice = 0;
     
+    std::cout << "Ingresar una letra para la frase: ";
+    std::cin >> letra;
+
+    while (letra != '0' && indice < 30) {
+        frase[indice] = letra;
+
+        std::cout << "Ingresar otra letra para la frase: ";
+        std::cin >> letra;
+
+        indice++;
+    }
+
+    frase[indice] = '\0';
+    
+    std::cout << "La frase completa es: ";
+    indice = 0;
+
+    while (frase[indice] != '\0') {
+        std::cout << frase[indice];
+        indice++;
+    }
+
+    std::cout << std::endl;
+
+    std::cout << "Ingrese letra a reemplazar: ";
+    std::cin >> letra_actual;
+
+    std::cout << "Ingrese la letra nueva: ";
+    std::cin >> letra_nueva;
+
+    indice = 0;
+
+    while (frase[indice] != '\0') {
+        if (frase[indice] == letra_actual) {
+            frase[indice] == letra_nueva;
+        }
+        indice++;
+    }
+
+    std::cout << "La frase nueva es: ";
+    indice = 0;
+
+    while (frase[indice] != '\0') {
+        std::cout << frase[indice];
+        indice++;
+    }
 
     return 0;
 }
