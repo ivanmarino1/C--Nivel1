@@ -22,7 +22,7 @@ class Program
 
     static bool par (int numero) {
         if (numero % 2 == 0) {
-            return true
+            return true;
         } else {
             return false;
         }
